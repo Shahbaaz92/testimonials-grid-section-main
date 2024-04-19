@@ -1,0 +1,99 @@
+@font-face {
+  font-family: "Barlow Semi Condensed - Medium";
+  src: url("./fonts/Barlow_Semi_Condensed/BarlowSemiCondensed-Medium.ttf");
+}
+@font-face {
+  font-family: "Barlow Semi Condensed - Semibold";
+  src: url("./fonts/Barlow_Semi_Condensed/BarlowSemiCondensed-SemiBold.ttf");
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Barlow Semi Condensed - Medium";
+  width: 100%;
+  height: 100vh;
+  background-color: #ecf2f8;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+main {
+  width: 1100px;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-row: 282px 266px;
+  gap: 20px;
+}
+section {
+  border-radius: 8px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+article {
+  display: flex;
+}
+article img {
+  width: 28px;
+  height: 28px;
+  border-radius: 50%;
+}
+h2 {
+  font-size: 13px;
+  line-height: 13px;
+}
+small {
+  font-size: 11px;
+  line-height: 11px;
+}
+p {
+  font-size: 20px;
+  font-family: "Barlow Semi Condensed - Semibold";
+}
+blockquote {
+  font-size: 13px;
+  line-height: 18px;
+}
+.Daniel {
+  grid-column: span 2;
+  background-color: #733fc8;
+  color: #ffffff;
+}
+.Daniel img {
+  border: 2px solid #a775f1;
+}
+.Daniel blockquote {
+  color: #cfcfcf;
+}
+.Jonathan {
+  background-color: #48556a;
+  color: #ffffff;
+  grid-row: ;
+}
+.Jeanette {
+  grid-row: 2/3;
+  background-color: #ffffff;
+  color: #48556a;
+}
+.Patrick {
+  background-color: #19202d;
+  color: #ffffff;
+  grid-row: 2/3;
+  grid-column: span 2;
+}
+.Patrick img {
+  border: 2px solid #733fc8;
+}
+.Patrick p {
+  color: #ecf2f8;
+}
+.Kira {
+  background-color: #ffffff;
+  color: #48556a;
+  grid-row: 1/4;
+  grid-column: 4/5;
+}
