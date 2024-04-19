@@ -25,10 +25,13 @@ main {
   height: auto;
   display: grid;
   grid-template-columns: repeat(4, 1fr);
-  grid-template-row: 282px 266px;
+  grid-template-rows: 282px 266px;
   gap: 20px;
 }
-div {
+h1 {
+  display: none;
+}
+.about {
   border-radius: 8px;
   padding: 20px;
   display: flex;
@@ -36,12 +39,12 @@ div {
   gap: 10px;
   box-shadow: 10px 10px 25px 1px grey;
 }
-article {
+.article {
   display: flex;
   align-items: center;
   gap: 10px;
 }
-article img {
+.article img {
   width: 28px;
   height: 28px;
   border-radius: 50%;
