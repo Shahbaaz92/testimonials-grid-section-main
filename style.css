@@ -66,6 +66,9 @@ blockquote {
   grid-column: span 2;
   background-color: #733fc8;
   color: #ffffff;
+  background-image: url("./images/bg-pattern-quotation.svg");
+  background-repeat: no-repeat;
+  background-position-x: 80%;
 }
 .Daniel img {
   border: 2px solid #a775f1;
