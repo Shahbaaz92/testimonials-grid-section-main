@@ -94,6 +94,6 @@ blockquote {
 .Kira {
   background-color: #ffffff;
   color: #48556a;
-  grid-row: 1/4;
+  grid-row: span 2;
   grid-column: 4/5;
 }
