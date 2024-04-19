@@ -76,7 +76,7 @@ blockquote {
 .Jonathan {
   background-color: #48556a;
   color: #ffffff;
-  grid-row: ;
+  grid-row: span 1;
 }
 .Jeanette {
   grid-row: 2/3;
